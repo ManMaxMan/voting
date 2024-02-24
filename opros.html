@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Opros</title>
+    </head>
+    <body>
+        <form>
+            <p></p>
+            <h2>Выбери лучшего исполнителя:</h2>
+            <p>
+                <input type="radio" value="Григорий Лепс" checked name="artist"/>Григорий Лепс
+            </p>
+            <p>
+                <input type="radio" value="Дима Билан" name="artist"/>Дима Билан
+            </p>
+            <p>
+                <input type="radio" value="Полина Гагарина" name="artist"/>Полина Гагарина
+            </p>
+            <p>
+                <input type="radio" value="Стас Михайлов" name="artist"/>Стас Михайлов
+            </p>
+            <p></p>
+
+
+            <h2>Выбери любимые жанры (3-5 вариантов):</h2>
+            <p>
+                <input type="checkbox" name="genre" value="Эпопея"/>Эпопея
+            </p>
+            <p>
+                <input type="checkbox" name="genre" value="Эпос"/>Эпос
+            </p>
+            <p>
+                <input type="checkbox" name="genre" value="Роман"/>Роман
+            </p>
+            <p>
+                <input type="checkbox" name="genre" value="Повесть"/>Повесть
+            </p>
+            <p>
+                <input type="checkbox" name="genre" value="Новелла"/>Новелла
+            </p>
+            <p>
+                <input type="checkbox" name="genre" value="Рассказ"/>Рассказ
+            </p>
+            <p>
+                <input type="checkbox" name="genre" value="Пьеса"/>Пьеса
+            </p>
+            <p>
+                <input type="checkbox" name="genre" value="Очерк"/>Очерк
+            </p>
+            <p>
+                <input type="checkbox" name="genre" value="Видение"/>Видение
+            </p>
+            <p>
+                <input type="checkbox" name="genre" value="Эссе"/>Эссе
+            </p>
+            <p></p>
+
+            <h2>Напишите кратко о себе:</h2>
+            <textarea id="comment" required name="about" placeholder="Написать о себе" cols="30" rows="7"></textarea>
+
+            <p>
+                <button type="submit" formmethod="get" formaction="http://localhost:8080/opros-1.0-SNAPSHOT/vote">Отправить</button> 
+            </p>
+
+            
+        
+
+        </form>
+    
+    </body>
+</html>
