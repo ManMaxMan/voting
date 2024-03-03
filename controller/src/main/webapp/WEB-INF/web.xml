@@ -5,16 +5,4 @@
          metadata-complete="false"
          version="6.0">
 
-
-    <display-name>Application</display-name>
-    <!--<servlet>
-        <servlet-name>Servlet1</servlet-name>
-        <servlet-class>app.example.servlets.worker.MyServlet</servlet-class>
-    </servlet>
-
-    <servlet-mapping>
-        <servlet-name>Servlet1</servlet-name>
-        <url-pattern>/hello</url-pattern>
-    </servlet-mapping>-->
-
 </web-app>
